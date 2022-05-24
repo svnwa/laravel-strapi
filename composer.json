@@ -1,6 +1,6 @@
 {
     "name": "svnwa/laravel-strapi",
-    "description": ":package_description",
+    "description": "This package provides an implementation to consume the Strapi REST API.",
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,7 @@
         }
     ],
     "homepage": "https://github.com/svnwa/laravel-strapi",
-    "keywords": ["Laravel", "LaravelStrapi"],
+    "keywords": ["Laravel", "LaravelStrapi","Strapi","REST","Headless CMS","Laravel Headless CMS", "Laravel CMS"],
     "require": {
         "illuminate/support": "~9"
     },
