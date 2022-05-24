@@ -146,7 +146,7 @@ class LaravelStrapi
 
     private function makeCacheKey() : string
     {
-        return serialize($this->apiResource).'_'.serialize($this->requestParameters);
+        return serialize($this->endpoint($this->apiResource,$this->entryId)).'_'.serialize($this->requestParameters);
     }
 
     private function endpoint(string $resource,int $entryId=null) : string
