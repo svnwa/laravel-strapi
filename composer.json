@@ -1,0 +1,41 @@
+{
+    "name": "svnwa/laravel-strapi",
+    "description": ":package_description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Walbröl",
+            "email": "svnwal.dev@gmail.com",
+            "homepage": "http://sven-walbroel.de"
+        }
+    ],
+    "homepage": "https://github.com/svnwa/laravel-strapi",
+    "keywords": ["Laravel", "LaravelStrapi"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Svnwa\\LaravelStrapi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Svnwa\\LaravelStrapi\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Svnwa\\LaravelStrapi\\LaravelStrapiServiceProvider"
+            ],
+            "aliases": {
+                "LaravelStrapi": "Svnwa\\LaravelStrapi\\Facades\\LaravelStrapi"
+            }
+        }
+    }
+}
