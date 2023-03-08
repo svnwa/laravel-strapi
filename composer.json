@@ -12,11 +12,11 @@
     "homepage": "https://github.com/svnwa/laravel-strapi",
     "keywords": ["Laravel", "LaravelStrapi","Strapi","REST","Headless CMS","Laravel Headless CMS", "Laravel CMS"],
     "require": {
-        "illuminate/support": "~9"
+        "illuminate/support": ">=9"
     },
     "require-dev": {
-        "phpunit/phpunit": "~9.0",
-        "orchestra/testbench": "~7"
+        "phpunit/phpunit": ">=9.0",
+        "orchestra/testbench": ">=7"
     },
     "autoload": {
         "psr-4": {
